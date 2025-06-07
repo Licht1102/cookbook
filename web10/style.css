@@ -1,0 +1,85 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-section {
+    background-color: #f6b884;
+    width: 100vw;
+    height:auto;
+    padding: 0;
+}
+
+.hero-title {
+   position: absolute;
+    width: 100%;
+    background-color: white;
+    opacity: 95%;
+    padding: 0px 20px;
+    text-align: center;
+    top:10px;
+}
+
+.hero-title h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #000;
+}
+
+/* 準備放內容的主體區塊 */
+.hero-content {
+    padding: 60px 20px;
+    text-align: center;
+    color: #444;
+    font-size: 1.2rem;
+}
+
+
+.owl-carousel-wrapper {
+    position: relative;
+    padding: 0 60px; 
+}
+
+
+.owl-nav-btn {
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 99%;
+}
+
+.owl-nav-btn:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.owl-prev-btn {
+    left: 0;
+}
+
+.owl-next-btn {
+    right: 0;
+}
+
+
+.owl-carousel-wrapper .owl-dots {
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.owl-carousel-wrapper .owl-dot span {
+    width: 30px !important;
+    height: 4px !important;
+
+}
+
